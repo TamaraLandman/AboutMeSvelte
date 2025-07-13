@@ -5,7 +5,7 @@
   let cardData = [
     {
       image:
-        "https://media.istockphoto.com/id/185590965/photo/yellow-rubber-duck-for-bath-time.jpg?s=612x612&w=0&k=20&c=QoT-O5jbOugCgdQhLat15c0L9jCmRrSTiO9U50W_eQc=",
+        "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       title: "Coding",
       description:
         "I love solving problems and writing code to build cool things.",
@@ -20,6 +20,12 @@
       title: "Traveling",
       description:
         "I enjoy exploring new cultures and learning from the world around me.",
+    },
+        {
+      image: "https://plus.unsplash.com/premium_photo-1672883551967-ab11316526b4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c2hvcHBpbmd8ZW58MHx8MHx8fDA%3D",
+      title: "Fashion",
+      description:
+        "I enjoy shopping and creating new looks",
     },
   ];
   let name = "Tamara"; // Change this to your name
