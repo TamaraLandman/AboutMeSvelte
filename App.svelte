@@ -1,6 +1,6 @@
-<script>
 
-    import ImageCard from "ImageCard.svelte";
+<script>
+  import ImageCard from "./ImageCard.svelte";
   
   let cardData = [
     {
@@ -22,7 +22,6 @@
         "I enjoy exploring new cultures and learning from the world around me.",
     },
   ];
-
   let name = "Tamara"; // Change this to your name
   let favoriteNumber = 42; // Change this to your favorite number
   let bio = "I'm a CS student with a passion for Tech!";
@@ -77,7 +76,7 @@
   </div>
 </div>
 
-<h2>Some of My Favorite Things</h2>
+  <h2>Some of My Favorite Things</h2>
   <div class="card-container">
     {#each cardData as { image, title, description }}
       <ImageCard {image} {title} {description} />
